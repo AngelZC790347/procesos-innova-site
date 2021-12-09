@@ -1,6 +1,8 @@
 import React from "react";
 import ListaFromArray from "../components/list-group";
 import NaviSite from "../components/navigator";
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 //data
 const efectos =[
     {

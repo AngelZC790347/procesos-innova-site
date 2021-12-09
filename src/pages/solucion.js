@@ -1,6 +1,7 @@
 import React from "react";
 import LandHead from "../components/landing-head";
 import NaviSite from "../components/navigator";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const solMainPage = () => {
     return (
