@@ -1,0 +1,16 @@
+li{
+    list-style: none;
+}
+body{
+    background-color: rgb(233, 224, 212);
+}
+
+.efc-itm{
+    margin-bottom: 70px;
+    padding-top: 30px;
+}
+.efc-itm h2{
+    text-transform: capitalize;
+    text-decoration:underline;
+    color: cadetblue;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import ListaFromArray from "../components/list-group";
 import NaviSite from "../components/navigator";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/global.css'
 
 //data
 const efectos =[
@@ -84,7 +85,7 @@ const EffectsPage=()=>{
         <ul>
             {
                 efectos.map(el=>(
-                    <li key={el.mainTittle}>
+                    <li className="efc-itm" key={el.mainTittle}>
                         <h2>{el.mainTittle}</h2>
                         {el.Items.map(el2=>(
                             <ListaFromArray ItemTittle={el2.ItemTittle} Items = {el2.Items}></ListaFromArray>
